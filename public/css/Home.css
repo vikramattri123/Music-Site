@@ -1,0 +1,260 @@
+.navbar
+{
+     position:fixed;
+     width: 100%;
+     background-color:rgb(37, 36, 36);
+}
+.outside-carousel
+{
+  margin-top:70px;
+}
+.carousel-inner img {
+    width: 1400px;
+    height: 400px;
+}
+.carousel-modify{
+margin:auto;
+width: 70%;
+}
+.navbar1{
+padding-top:15px;
+border-bottom:.2px solid #343434;
+}
+.navbar2{
+padding-top:15px;
+border-bottom:.2px solid white;
+background-color:skyblue
+;
+}
+.navbar1 .navbar-nav .nav-link{
+color: white;
+font-weight:400;
+font-style:Rubik;
+/* font-family: 'Oswald', sans-serif; */
+}
+.navbar2 .navbar-nav .nav-link{
+color:white;
+font-weight:400;
+/* font-family: 'Oswald', sans-serif; */
+}
+.navbar-always .navbar-toggler{
+color:white;
+}
+.navbar1 .navbar-nav .nav-link:hover{
+color:rgba(255,255,255,0.4);
+}
+.navbar1 .navbar-nav .nav-link:active{
+color:rgba(255,255,255,0.8);
+}
+.navbar1 .navbar-nav .nav-link:visited{
+color:rgba(255,255,255,0.6);
+}
+.hover-line-1{
+	width: .1px;
+	height: .1px;	
+	background-color: white;
+	-webkit-transition:width .8s;
+	transition: width .8s;
+}
+
+
+.list-1:hover .hover-line-1{
+	width: 60px;
+	height: 2px; 
+} 	
+.list-2:hover .hover-line-1{
+	width: 60px;
+    height: 2px;
+}
+.change
+{
+    position:fixed; 
+    Right:80px;
+}
+.artist{
+  margin-left :20px;
+}
+.change1
+{
+    position:fixed; 
+}
+.add h1
+{
+    font-size: 20px;
+    color:white;
+    margin-left:30px;
+    background-color: black;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .caption
+  {
+    background-color:rgb(245, 235, 235);
+    font-family:Arial, Helvetica, sans-serif bold;
+    font-size : 4px;
+  }
+  .shap img {
+    border-radius:25px;
+  }
+.add
+{
+  margin-left:40px;
+  color:whitesmoke;
+}
+.go
+{
+  padding-top:20px;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+    background: #000000;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    margin-left: 16px;
+    width: 19%;
+  }
+  .box {
+    background-color:white;
+}
+.on
+{
+    background: #330000;
+    width:255px;
+    height:150px;
+}
+.play-pause {
+    height: 50px;
+    width: 50px;
+    filter: invert(1);
+    cursor: pointer;
+    z-index: 4;
+    font-size: 53px;
+    margin-left:5px;
+}
+.song-artist {
+    z-index: 4;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    bottom: 21%;
+    left: 28%;
+}
+
+.song-title {
+    z-index: 4;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    bottom: 16%;
+    left: 28%;
+}
+.progress-bar {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 5px;
+    background:grey;
+    width: 160px;
+    float:center;
+    border-radius: 30px;
+}
+.progress-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    margin-top: -3px;
+    margin-left: 0px;
+    height: 10px;
+    width: 7px;
+    border: 0;
+    background: black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.progress-bar::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    max-height: 5px;
+    border-radius: 30px;
+}
+.progress-bar:focus {
+    outline: none;
+}
+#fill {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: white;
+}
+#fill1 {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: white;
+}
+h6
+{
+  margin-left:30px;
+  margin-right:115px;
+  padding: 0;
+  display: inline;
+}
+.core
+{
+    height: 248px;
+    width: 255px;
+}
+#progress-bar::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    max-height: 5px;
+    border-radius: 30px;
+}
+.button {
+  background: black;
+  border: none;
+  color: whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 46px 32px;
+  border-radius: 45%;
+  border-color: -webkit-linear-gradient(45deg, rgb(40, 40, 40), rgb(133, 133, 133));
+  height :50px;
+  width:200px;
+}

@@ -1,0 +1,88 @@
+.navbar
+{
+     position:fixed;
+     width: 100%;
+     background-color:rgb(37, 36, 36);
+}
+body
+{
+    background-color : black;
+}
+.outside-carousel
+{
+  margin-top:70px;
+}
+.carousel-inner img {
+    width: 1400px;
+    height: 400px;
+}
+.carousel-modify{
+margin:auto;
+width: 70%;
+}
+.navbar1{
+padding-top:15px;
+border-bottom:.2px solid #343434;
+}
+.navbar2{
+padding-top:15px;
+border-bottom:.2px solid white;
+background-color:skyblue
+;
+}
+.navbar1 .navbar-nav .nav-link{
+color: white;
+font-weight:400;
+font-style:Rubik;
+/* font-family: 'Oswald', sans-serif; */
+}
+.navbar2 .navbar-nav .nav-link{
+color:white;
+font-weight:400;
+/* font-family: 'Oswald', sans-serif; */
+}
+.navbar-always .navbar-toggler{
+color:white;
+}
+.navbar1 .navbar-nav .nav-link:hover{
+color:rgba(255,255,255,0.4);
+}
+.navbar1 .navbar-nav .nav-link:active{
+color:rgba(255,255,255,0.8);
+}
+.navbar1 .navbar-nav .nav-link:visited{
+color:rgba(255,255,255,0.6);
+}
+.hover-line-1{
+	width: .1px;
+	height: .1px;	
+	background-color: white;
+	-webkit-transition:width .8s;
+	transition: width .8s;
+}
+.hover-line-5{
+	width: .2px;
+	height: .1px;	
+	background-color: white;
+	-webkit-transition:width .10s;
+	transition: width .10s;
+}
+
+
+.list-1:hover .hover-line-1{
+	width: 60px;
+	height: 2px; 
+} 	
+.list-2:hover .hover-line-1{
+	width: 60px;
+    height: 2px;
+}
+.list-1:hover .hover-line-5{
+	width: 100px;
+    height: 2px;
+}
+.change
+{
+    position:fixed; 
+    Right:80px;
+}

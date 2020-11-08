@@ -1,0 +1,43 @@
+            
+            
+            
+            <%- include ('partials/header.ejs') %>
+            <h1 class="pageHeadingInBig">Heaven Music</h1>
+            <br>
+            <h4 class="artist">Artist</h4>
+              <br>
+             <% albumData.forEach(data => { %>
+
+               <div class="gridViewItem">
+                   <a href="/album?data=<%= `${data.albumId}` %>">
+                            <img src=<%= `${data.artworkPath}` %>>
+
+                            
+
+                           <div class="gridViewInfo">
+                                   <%= data.title %> 
+                                   
+                               </div>
+                   </a>
+                   
+
+                  
+
+               </div>
+
+               
+                
+
+            <% }) %>
+            <!-- <% songData.forEach(data => { %>
+                <div>
+                    <audio controls>
+                        <img src=<%= `${data.path}` %>>
+                    </audio>
+                    <%= data.path %>            
+                </div>
+                <% }) %> -->
+          
+           <%- include ('partials/mainfooter.ejs') %>   
+
+

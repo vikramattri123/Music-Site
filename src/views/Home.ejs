@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music Site</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="/css/Home.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar1 navbar-always">
+    <a class="navbar-brand" href="" Style="color:rgb(105, 37, 37)">Heaven Music</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="change">
+      <ul class="navbar-nav">
+          <li class="nav-item list-1"><a href="/Signup" class="nav-link">Sign Up</a><div class="hover-line-1"></div></li>
+          <li class="nav-item list-2"><a href="/login" class="nav-link">Login</a><div class="hover-line-1"></div></li>
+      </ul>
+      </div>
+    </div>
+  </nav>
+  <!--slide show-->
+  <br>
+  <br>
+  <div class="outside-carousel">
+    <div id="demo" class="carousel slide carousel-modify" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+        <li data-target="#demo" data-slide-to="3"></li>
+        <li data-target="#demo" data-slide-to="4"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/img/Scroll/dua.jpg" alt="Photo1" />
+          <div class="carousel-caption">
+            <h1>𝒟𝓊𝒶 𝓁𝒾𝓅𝒶</h1>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <img src="/img/Scroll/Weekend.jpg" alt="photo2" />
+          <div class="carousel-caption">
+            <h1>𝒯𝒽𝑒 𝒲𝑒𝑒𝓀𝑒𝓃𝒹</h1>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <img src="/img/Scroll/Taylor.jpg" alt="photo3" />
+          <div class="carousel-caption">
+            <h1>𝒯𝒶𝓎𝓁𝑜𝓇 𝒮𝓌𝒾𝒻𝓉</h1>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <img src="/img/Scroll/Edsherran.jpg" alt="photo3" width="1100" height="100" />
+          <div class="carousel-caption">
+            <h1>𝐸𝒹 𝒮𝒽𝑒𝑒𝓇𝒶𝓃</h1>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <img src="/img/Scroll/Zayn.jpg" alt="photo3" width="1100" height="500" />
+          <div class="carousel-caption">
+            <h1>𝒵𝒶𝓎𝓃 𝑀𝒶𝓁𝒾𝓀</h1>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="add">
+    <h4>Newly Released</h4>
+  </div>
+  <br>
+        <div class="column">
+          <audio src="/music/Latest/Better.mp3" id="song"></audio>
+          <div class="core"><img src="/img/images/Zayn1.jpg" alt="Forest" width="255px" height="248px" style="border:1px solid white" class="thumbnail" id="thumbnail"></div>
+          <div class="on">
+          <img src="/icons/play.png" onclick="playPause()"     
+          id="play-pause" class="play-pause"/>
+            <div class="song-artist">Zayn Malik</div>
+            <div class="song-title">Better</div>
+            <center><input
+            type="range"
+            id="progress-bar"
+            class="progress-bar"
+            min="0"
+            max=""
+            value="0"
+            onchange="changeProgressBar()"
+          /></center>
+              <div class="sol">
+                <h6  class="currentTime" id="fill"></h6><h6  class="durationTime" id="fill1"></h6>
+            </div>
+        </div>
+        </div>
+        <div class="column">
+          <audio src="/music/Latest/Too late.mp3" id="song1"></audio>
+          <div class="core"><img src="/img/images/Weekend.jpg" alt="Forest" width="255px" height="248px" style="border:1px solid white" class="thumbnail" id="thumbnail1"></div>
+          <div class="on">
+          <img src="/icons/play.png" onclick="playPause1()"     
+          id="play-pause1" class="play-pause"/>
+          <div class="song-artist">The Weekend</div>
+          <div class="song-title">Too Late</div>
+          <center><input
+            type="range"
+            class="progress-bar"
+            id="progress-bar1"
+            min="0"
+            max=""
+            value="0"
+            onchange="changeProgressBar1()"
+          /></center>
+          <div class="sol1">
+            <h6  class="currentTime1" id="fill"></h6><h6  class="durationTime1" id="fill1"></h6>
+            </div>
+        </div>
+        </div>
+        <div class="column">
+          <audio src="/music/Latest/Baby I'm Jealous.mp3" id="song2"></audio>
+          <div class="core"><img src="/img/images/Baby1.jpg" alt="Forest" width="255px" height="248px" style="border:1px solid white" class="thumbnail" id="thumbnail1"></div>
+          <div class="on">
+          <img src="/icons/play.png" onclick="playPause2()"     
+          id="play-pause2" class="play-pause"/>
+          <div class="song-artist">Bebe rexha</div>
+          <div class="song-title">Baby I'm Jealous</div>
+          <center><input
+            type="range"
+            class="progress-bar"
+            id="progress-bar2"
+            min="0"
+            max=""
+            value="0"
+            onchange="changeProgressBar2()"
+          /></center>
+          <div class="sol2">
+            <h6   class="currentTime2" id="fill"></h6><h6 class="durationTime2" id="fill1"></h6>
+            </div>
+        </div>
+        </div>
+        <div class="column">
+          <audio src="/music/Latest/dontstartnow.mp3" id="song3"></audio>
+          <div class="core"><img src="/img/images/dontstartnow.png" alt="Forest1" width="255px" height="248px" style="border:1px solid white" class="thumbnail" id="thumbnail1"></div>
+          <div class="on">
+          <img src="/icons/play.png" onclick="playPause4()"     
+          id="play-pause4" class="play-pause"/>
+          <div class="song-artist">Bebe rexha</div>
+          <div class="song-title">Baby I'm Jealous</div>
+          <center><input
+            type="range"
+            class="progress-bar"
+            id="progress-bar3"
+            min="0"
+            max=""
+            value="0"
+            onchange="changeProgressBar3()"
+          /></center>
+          <div class="sol3">
+            <h6  class="currentTime3" id="fill1"></h6><h6 class="durationTime3" id="fill"></h6>
+            <br>
+            </div>
+          </div>
+        </div>
+          <div class="column">
+            <div class="core"><img src="/img/images/plus.png" alt="Forest1" width="255px" height="248px" style="border:1px solid white" class="thumbnail" id="thumbnail1"></div>
+            <div class="on">
+              <button class="button button1"><a href="/Signup">Play More</a></button>
+            </div>
+          </div>
+    <script src="/js/player.js"></script>
+    <br>
+  </body>
+  </html>

@@ -1,0 +1,19 @@
+var songData = [
+    {"_id":"5dc02d07726fd81be05167cf","title":"off the table","artist":"5dc028b24280c3260ca9d5a1","album":"5dc027d533e8483da8198e7a","genre":"5dbe7d2e5328e80b709a9187","duration":"4:19","path":"/music/Ariana/Ariana1.mp3","albumOrder":1,"plays":0,"__v":0},
+    {"_id":"5dc03ff37486e51978ba4337","title":"thank you next","artist":"5dc028b24280c3260ca9d5a1","album":"5dc027d533e8483da8198e7a","genre":"5dbe7d2e5328e80b709a9187","duration":"3:09","path":"/music/Ariana/Ariana2.mp3","albumOrder":2,"plays":5,"__v":0},
+    {"_id":"5dc03ff77486e51978ba4338","title":"7 Rings","artist":"5dc028b24280c3260ca9d5a1","album":"5dc027d533e8483da8198e7a","genre":"5dbe7d2e5328e80b709a9187","duration":"3:32","path":"/music/Ariana/Ariana3.mp3","albumOrder":3,"plays":5,"__v":0},
+    {"_id":"5dc03ffb7486e51978ba4339","title":"God is a Woman","artist":"5dc028b24280c3260ca9d5a1","album":"5dc027d533e8483da8198e7a","genre":"5dbe7d2e5328e80b709a9187","duration":"2:40","path":"/music/Ariana/Ariana4.mp3","albumOrder":4,"plays":5,"__v":0},
+    {"_id":"5dc03ffe7486e51978ba433a","title":"Side To Side","artist":"5dc028b24280c3260ca9d5a1","album":"5dc027d533e8483da8198e7a","genre":"5dbe7d2e5328e80b709a9187","duration":"3:13","path":"/music/Ariana/Ariana5.mp3","albumOrder":5,"plays":5,"__v":0},
+    {"_id":"5dc03be97486e51978ba4332","title":"Better","artist":"5dc033f4c186bb191cf72e48","album":"5dc03be97486e51978ba4333","genre":"5dbe7d2e5328e80b709a9187","duration":"4:19","path":"/music/Zayn/Better1.mp3","albumOrder":6,"plays":5,"__v":0},
+    {"_id":"5dc03be97486e51978ba4352","title":"Trampoline","artist":"5dc033f4c186bb191cf72e48","album":"5dc03be97486e51978ba4333","genre":"5dbe7d2e5328e80b709a9187","duration":"3:21","path":"/music/Zayn/Better2.mp3","albumOrder":7,"plays":5,"__v":0},
+    {"_id":"5dc03be97486e51978ba4362","title":"I Don't Wanna Live Forever","artist":"5dc033f4c186bb191cf72e48","album":"5dc03be97486e51978ba4333","genre":"5dbe7d2e5328e80b709a9187","duration":"4:10","path":"/music/Zayn/Better3.mp3","albumOrder":8,"plays":5,"__v":0},
+    {"_id":"5dc03be97486e51978ba4372","title":"Dusk till dawn","artist":"5dc033f4c186bb191cf72e48","album":"5dc03be97486e51978ba4333","genre":"5dbe7d2e5328e80b709a9187","duration":"5:20","path":"/music/Zayn/Better4.mp3","albumOrder":9,"plays":5,"__v":0},
+    {"_id":"5dc03be97486e51978ba4382","title":"A Whole New World","artist":"5dc033f4c186bb191cf72e48","album":"5dc03be97486e51978ba4333","genre":"5dbe7d2e5328e80b709a9187","duration":"5:11","path":"/music/Zayn/Better5.mp3","albumOrder":10,"plays":5,"__v":0},
+    {"_id":"5dc03be97486e51978ba4312","title":"I don't care","artist":"5dc03109c186bb191cf72e46","album":"5dc03bf47486e51978ba4334","genre":"5dbe7d2e5328e80b709a9187","duration":"3:45","path":"/music/sheeran/sheeran1.mp3","albumOrder":11,"plays":5,"__v":0},
+    {"_id":"5dc03be97486e51978ba4322","title":"Beautiful People","artist":"5dc03109c186bb191cf72e46","album":"5dc03bf47486e51978ba4334","genre":"5dbe7d2e5328e80b709a9187","duration":"3:56","path":"/music/sheeran/sheeran2.mp3","albumOrder":12,"plays":5,"__v":0},
+    {"_id":"5dc03be97486e51978ba4392","title":"The Hills","artist":"5dc0377a1c9d44000047a7cb","album":"5dc03c227486e51978ba4335","genre":"5dbe7d2e5328e80b709a9187","duration":"4:02","path":"/music/Weekend/weekend1.mp3","albumOrder":13,"plays":5,"__v":0},
+    {"_id":"5dc03be97486e51978ba4302","title":"Too late","artist":"5dc0377a1c9d44000047a7cb","album":"5dc03c227486e51978ba4335","genre":"5dbe7d2e5328e80b709a9187","duration":"4:12","path":"/music/Weekend/weekend2.mp3","albumOrder":14,"plays":5,"__v":0},
+    {"_id":"5dc03be97486e51978ba4312","title":"don't Start Now","artist":"5dc03374c186bb191cf72e47","album":"5dc03cbb7486e51978ba4336","genre":"5dbe7d2e5328e80b709a9187","duration":"3:19","path":"/music/dua/dua1.mp3","albumOrder":15,"plays":5,"__v":0},
+    
+]
+module.exports = songData;

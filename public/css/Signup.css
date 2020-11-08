@@ -1,0 +1,181 @@
+body {
+	font-family: sans-serif;	
+	background-image: url("/img/Scroll/background.jpg");
+	background-repeat: no-repeat;
+	overflow: hidden;
+	background-size: cover;
+}
+.colorfill
+{
+	background: black;
+}
+.container {
+	width: 480px;
+	margin:7% auto;
+	margin-Right:80px;
+	margin-top:80px;
+	border:1px solid lightgoldenrodyellow;
+	border-radius: 25px;
+	background-color: rgba(206, 91, 91, 0.1);
+	box-shadow: 0 0 17px #333;
+}
+
+.header {
+	text-align: center;
+	padding-top: 60px;
+}
+
+.header h1 {
+	color:white;
+	font-size: 45px;
+	margin-bottom: 70px;
+}
+
+.main {
+	text-align: center;
+}
+
+.main input {
+	width: 290px;
+	height: 40px;
+	border:none;
+	outline: none;
+	padding-left: 40px;
+	box-sizing: border-box;
+	font-size: 15px;
+	color: #333;
+	margin-bottom: 30px;
+}
+
+.main button {
+	padding-left: 0;
+	letter-spacing: 1px;
+	color:white;
+	background-color: #343434;
+	font-weight: bold;
+	width:160px;
+	margin-bottom: 70px;
+}
+
+.main button:hover {
+	box-shadow: 2px 2px 5px #555;
+	background-color: #7799d4;
+}
+.main input:hover {
+	box-shadow: 2px 2px 5px #555;
+	background-color: #ddd;
+}
+
+.main span {
+	position: relative;
+}
+
+.main i {
+	position: absolute;
+	left: 15px;
+	color: #333;
+	font-size: 16px;
+	top: 2px;
+}
+.navbar
+{
+     position:fixed;
+     width: 100%;
+     background-color:rgb(37, 36, 36);
+}
+.outside-carousel
+{
+  margin-top:70px;
+}
+.carousel-inner img {
+    width: 1400px;
+    height: 400px;
+}
+.carousel-modify{
+margin:auto;
+width: 70%;
+}
+.navbar1{
+padding-top:15px;
+border-bottom:.2px solid #343434;
+}
+.navbar2{
+padding-top:15px;
+border-bottom:.2px solid white;
+background-color:skyblue
+;
+}
+.navbar1 .navbar-nav .nav-link{
+color: white;
+font-weight:400;
+font-style:Rubik;
+/* font-family: 'Oswald', sans-serif; */
+}
+.navbar2 .navbar-nav .nav-link{
+color:white;
+font-weight:400;
+/* font-family: 'Oswald', sans-serif; */
+}
+.navbar-always .navbar-toggler{
+color:white;
+}
+.navbar1 .navbar-nav .nav-link:hover{
+color:rgba(255,255,255,0.4);
+}
+.navbar1 .navbar-nav .nav-link:active{
+color:rgba(255,255,255,0.8);
+}
+.navbar1 .navbar-nav .nav-link:visited{
+color:rgba(255,255,255,0.6);
+}
+.hover-line-1{
+	width: .1px;
+	height: .1px;	
+	background-color: white;
+	-webkit-transition:width .8s;
+	transition: width .8s;
+}
+
+
+.list-1:hover .hover-line-1{
+	width: 60px;
+	height: 2px; 
+} 	
+.list-2:hover .hover-line-1{
+	width: 60px;
+    height: 2px;
+}
+.change
+{
+    position:fixed; 
+    Right:80px;
+}
+.add h1
+{
+    font-size: 20px;
+    color:white;
+    margin-left:30px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
